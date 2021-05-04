@@ -1,0 +1,36 @@
+.header_container {
+	min-width: 100%;
+	min-height: 800px;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center/cover;
+}
+.header_container_title {
+	width: 604px;
+	height: 204px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 52px;
+	line-height: 130%;
+	color: #ffffff;
+	h1 {
+		padding-top: 210px;
+		padding-left: 110px;
+	}
+}
+.header_btn_container {
+	margin-top: 5rem;
+	display: flex;
+	padding-left: 120px;
+	width: 800px;
+	justify-content: space-between;
+	align-items: center;
+	button {
+		width: 260px;
+		height: 60px;
+		background: #ffffff;
+		border-radius: 15px;
+	}
+	p {
+		font-size: 16px;
+	}
+}
