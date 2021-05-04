@@ -2,7 +2,6 @@ import React from "react";
 import Nav from "../components/Nav";
 import Header from "../components/Header";
 import SectionTH from "../components/Section";
-import SimpleMap from "../components/GooglMap";
 import Head from "next/head";
 
 export default function Home() {
@@ -14,7 +13,7 @@ export default function Home() {
       <Nav />
       <Header />
       <SectionTH />
-      <SimpleMap />
+   
     </>
   );
 }
